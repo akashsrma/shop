@@ -36,17 +36,24 @@ const Cart = ({cart}) =>{
                 const _CART =CART.map((item,index)=>{
                     return cartIndex === index ? {...item,quantity : item.quantity + 1 } : item
                 })
-                setCART(_CART)
+                setCART(_CART) 
               }}
             
             >+</button>
             <span className="rupee">Rs= {cartItem.price}</span>
-            {/* <button
-            onClick={()=> removeItem(cartItem.id)}
-            className="btn remove-btn"
-            >
-               Remove
-            </button> */}
+
+            <button className="delete" onClick={(cartItem)=>{
+              //let item1 =cartItem;
+              console.log(cartItem);
+              const dummyCart = CART;
+              const _CART = dummyCart.filter((item,index)=>{
+                return cartIndex !== index
+              })
+               setCART(_CART)  
+            }}
+            
+           >Remove</button>
+
 
         </div>
          )
