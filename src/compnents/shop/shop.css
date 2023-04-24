@@ -1,0 +1,67 @@
+.main-contain{
+    display: grid;
+    grid-template-columns:repeat(auto-fill,minmax(190px,1fr)) ;
+
+}
+.image{
+   width: 12rem;
+  
+   
+}
+
+.card-title{
+   font-size: 0.9rem;
+   font-family: sans-serif;
+}
+.card-name{
+   font-size: 0.9rem;
+   font-family: sans-serif;
+}
+.shops{
+   background-color: teal;
+}
+.main{
+   grid-template-columns: repeat(3,1fr);
+   display: grid;
+  
+}
+.card{
+   display: flex;
+   /* border: 1px solid rgb(253, 253, 18); */
+   /* border: 1px solid rgba(61, 247, 92, 0.753); */
+   border: 1px solid rgb(238, 7, 250);
+   margin:0.66rem;
+}
+.btn-card{
+   margin: 1rem;
+   margin-left: 1.9rem;
+   cursor: pointer;
+}
+.btn-card:hover{
+ cursor: pointer;
+ color: rgb(14, 243, 14);
+font-size: 0.77rem;
+font-weight:bold;
+background-color: whitesmoke;
+border: 1px solid rgb(24, 73, 24);
+}
+
+.card-image{
+   width: 100%;
+   height: auto;
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+}
+.card-content{
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   width: 270px;
+   
+}
+.valueimage{
+ width: 9rem;
+ height: 9rem;
+  
+}

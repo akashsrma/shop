@@ -1,0 +1,86 @@
+.navbar{
+    background-color: rgb(144, 3, 156);
+    border-radius: 7px;
+     
+    
+}.logo{
+    width: 3rem;
+    height: 2.4rem;
+    margin-left: 0.5rem;
+    margin-top: 0.2rem;
+    
+}
+.navbar{
+    display: flex;
+    
+}
+
+.eagle{
+    margin-left: 1rem;
+    margin-top: 1.3rem;
+    color: rgb(250, 246, 246);
+
+}
+.eagle:hover{
+    cursor: pointer;
+}
+.productscolor{
+    color: orange;
+    opacity: 12;
+}
+
+.bar{
+  text-decoration: none;
+  margin-top: 1.3rem;
+  color: rgb(244, 250, 250);
+  font-weight: 444;
+
+}
+.bar:hover{
+    color: orange;
+    cursor: pointer;
+}
+.three{
+    margin-left: 45rem;   
+    display: flex;
+    flex-direction: row;
+    gap: 6rem;
+}
+.promotion{
+    width: 100%;
+    height: 470px;
+    margin-top: 0.7rem;
+}
+.offer{
+ width: 90%;
+ height: 18rem;
+}
+.per{
+    width: 6rem;
+    height: 6rem;
+    margin-bottom:7rem ;
+}
+.zero{
+    color: #ffffff;
+    opacity: 18;
+    margin-left: 0.4rem;
+    margin-top: -0.2rem;
+}
+.clor{
+    display: flex;
+    flex-direction: row;
+    margin-top: -1.6rem;
+}
+.logoo{
+    width: 1.7rem;
+    height: 1.7rem;
+    margin-left: 1150px;
+}
+
+
+.count{
+    color: #ffffff;
+    margin-left: 0.3rem;
+    opacity: 18;
+    font-size: 1rem;
+}

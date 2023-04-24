@@ -1,0 +1,55 @@
+.cartsum{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid rgb(160, 6, 152);
+    width: 50%;
+    margin-left: 21rem;
+    margin-top: 3rem;
+    
+}
+.cartshow{
+    margin-top: 4rem;
+    margin-left: 4rem;
+    color: rgb(184, 5, 160);
+    opacity: 21;
+
+}
+.click{
+    width: 4%;
+    height: 4%;
+    margin-top: 4rem;
+    margin-left: 4rem;
+    border: 1px solid rgb(252, 36, 169);
+
+
+}
+.click:hover{
+    border: 1px solid rgb(34, 253, 5);
+    cursor: pointer;
+}
+.total{
+    margin-left: 58rem;
+    color: rgb(243, 135, 12);
+    font-size: 1.2rem;
+
+
+}
+.green{
+    color: green;
+    opacity: 33;
+    font-size: 2rem;
+}
+.quan{
+    margin-top: 3.6rem;
+    margin-left: 4rem;
+    font-size: 1.8rem;
+    font-family: sans-serif;
+}
+.rupee{
+    margin-top: 4rem;
+    margin-left: 4rem;
+    font-size: 1.3rem;
+    opacity: 18;
+    color: rgb(253, 155, 7);
+
+}

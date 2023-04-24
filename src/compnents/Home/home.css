@@ -1,0 +1,39 @@
+.main-cart{
+    display: flex;
+    flex-direction: row;
+    gap: 3.7em;
+    margin-top: 5rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    /* margin-left: 9rem; */
+}
+.photo{
+    border: 1px solid rgb(253, 154, 215);
+    width: 27%;
+    height: 21rem;
+}
+.photo:hover{
+    cursor: pointer;
+    box-shadow: 3px 3px 4px 4px rgb(236, 132, 250);
+}
+.menshoes{
+    margin-top: 2.5rem;
+}
+.menshoess{
+    margin-top: 2.5rem;
+}
+.menshoesss{
+    margin-top: 5.5rem;
+}
+.menshoessss{
+    margin-top: 3rem;
+}
+.colormens{
+    color: rgb(82, 3, 71);
+    font-weight: 900;
+
+}
+span{
+    opacity: 0.5;
+}
