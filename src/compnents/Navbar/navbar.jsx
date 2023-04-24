@@ -5,14 +5,8 @@ import "./navbar.css"
 import { Link } from "react-router-dom"
 
 
-// import promotion from "../../assets/promotion.webp"
-// import offer from "../../assets/OIP.jpg"
-// import per from "../../assets/th.jpg"
-
-
-
-
-const Navbar =(props)=>{
+const Navbar =({count})=>{
+  console.log(count);
     return(
         <>
         <nav className="navbar">
@@ -37,7 +31,7 @@ const Navbar =(props)=>{
               <Link to={"./cart"} className="cart">
                 <div className="clor">
                 <img src={logoo}alt="pict" className="logoo" />
-                <sup className="count">{props.count}</sup>
+                <sup className="count">{count}</sup>
 
 
                 </div>      
