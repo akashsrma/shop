@@ -1,7 +1,7 @@
 
 import { getAuth, signInWithPopup, GoogleAuthProvider } from "firebase/auth";
 import "../signup/signup.css"
-
+import Google from "../../assets/new-google.gif"
 
 const Login = ()=>{
   const provider = new GoogleAuthProvider();
@@ -27,10 +27,10 @@ signInWithPopup(auth, provider)
 
 return(
     <div className="signupgoogle">
-
+       <img src={Google} alt="google" className="google" />
        <button className="sign" 
        onClick={handleSubmit}
-       >SignIN-with-Google</button>
+       >SignIN-with-Google</button> 
        {/* <button className="signn">Sign Out</button> */}
     </div>
   )
