@@ -24,11 +24,8 @@ const Navbar =({count})=>{
              
               </div>
 
-              <div>
-
-
-
-              <Link to={"./cart"} className="cart">
+               <div>
+               <Link to={"./cart"} className="cart">
                 <div className="clor">
                 <img src={logoo}alt="pict" className="logoo" />
                 <sup className="count">{count}</sup>
@@ -37,28 +34,19 @@ const Navbar =({count})=>{
                 </div>      
                 </Link> 
               </div>
-            
-              
-              </div>
-
-              
-      </nav>
-      {/* <div>
-          
-          <img src={promotion} className="promotion" alt="offer"></img>
-    
-    
-           </div>
-           <div className="about">
-              <img src={offer} alt="offer" className="offer"></img>
-             <img src={per} alt="per" className="per"></img>
-         </div> */}
-
-
-             
-
+               </div>
+         
+               </nav>
       </>
     )
 }
 
 export default Navbar;
+       
+       
+       
+       
+       
+       
+       
+     

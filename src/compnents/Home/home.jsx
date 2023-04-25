@@ -38,6 +38,8 @@ const Home = ()=>{
                 <p>price:<span>129</span></p>
              </div>
          </div> 
+
+         
     
         </div>
         
