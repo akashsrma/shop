@@ -20,7 +20,7 @@ const Navbar =({count})=>{
               <div className="three">
               <Link to={"/home"} className="home bar">HOME</Link>
               <Link to={"/shop"} className="shop bar">SHOP</Link>
-              <Link to={"/signup"} className="signup bar">SIGNUP</Link>
+              <Link to={"/signup"} className="signup bar">SIGN-OUT</Link>
              
               </div>
 
