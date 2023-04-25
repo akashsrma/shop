@@ -12,10 +12,10 @@ import  Products from "./compnents/shop/shop-card";
 const App =()=>{
 
     const [cart,setCart]=useState([]);
-    console.log(cart);
+    // console.log(cart);
 
     const addToCart =(data)=>{
-      console.log(data);
+      // console.log(data);
       setCart([...cart,{...data , quantity : 1}])
     }
 
