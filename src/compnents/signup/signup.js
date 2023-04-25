@@ -30,7 +30,7 @@ return(
 
        <button className="sign" 
        onClick={handleSubmit}
-       >SignIn with Google</button>
+       >SignIN with Google</button>
        <button className="signn">Sign Out</button>
     </div>
   )
