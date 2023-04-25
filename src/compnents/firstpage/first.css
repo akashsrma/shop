@@ -1,0 +1,21 @@
+.specialoffer{
+   width: 4rem;
+   height: 4rem;
+   margin-left: 5rem;
+  margin-bottom: 4rem;
+}
+.background{
+    background-color: rgb(129, 5, 129);
+    color: aliceblue;
+    height: 3rem;
+    border-radius: 6px;
+}
+.us{
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+   padding: 1rem 1rem;
+}
+.us:hover{
+    color: orange;
+}
